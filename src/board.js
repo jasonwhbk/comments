@@ -22,7 +22,7 @@ class Board extends Component {
                 .then(response => response.json())
                 .then(json => json[0]
                         .split('. ')
-                        .forEach(sentence => self.add(sentence.substring(0, 25))))
+                        .forEach(sentence => self.add(sentence.substring(0, 75))))
         }
     }
 
